@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+# =====================================================
+#  Tarel — one-command local launcher
+#  Usage:  ./run          (port 8080)
+#          ./run 3000     (custom port)
+# =====================================================
+set -e
+PORT="${1:-8080}"
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$DIR"
+
+echo ""
+echo "  Tarel — Fresh Fish, Seafood & Meat"
+echo "  ------------------------------------------------"
+echo "  Serving: $DIR"
+echo "  Open:    http://localhost:$PORT"
+echo "  Stop:    Ctrl+C"
+echo ""
+
+if command -v python3 >/dev/null 2>&1; then
+  exec python3 -m http.server "$PORT"
+elif command -v python >/dev/null 2>&1; then
+  exec python -m SimpleHTTPServer "$PORT"
+elif command -v php >/dev/null 2>&1; then
+  exec php -S "localhost:$PORT"
+elif command -v npx >/dev/null 2>&1; then
+  exec npx --yes serve -l "$PORT" .
+else
+  echo "  No server runtime found. Open index.html directly in a browser."
+  exit 1
+fi
