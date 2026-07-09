@@ -1,764 +1,1260 @@
-This is exactly the kind of prompt Claude excels at. The more detailed you are, the better the result. Below is a complete master prompt you can paste into Claude along with your logo, the homepage reference image, and the fish list.
+You are now acting as an award-winning Creative Director and Senior UI/UX Designer.
 
-⸻
+The current website is approximately 85% complete.
 
-MASTER PROMPT FOR CLAUDE
+DO NOT redesign the website.
 
-Project
+DO NOT change the branding.
 
-Build a premium, responsive, static marketing website for my UK-based seafood and meat business called Tarel.
+DO NOT change the typography.
 
-This is NOT an e-commerce website.
+DO NOT change the colour palette.
 
-It is a brand website whose goal is to build trust and encourage customers to order through WhatsApp and suppliers/vendors to contact us.
+Instead, elevate the website into a world-class premium seafood brand.
 
-Use the uploaded logo throughout the website and build the entire UI around the colours in the logo.
+Think Apple.
+Think Whole Foods.
+Think Fortnum & Mason.
+Think premium Scottish seafood companies.
 
-The design should feel like a premium UK food brand.
+The website should feel luxurious, authentic and editorial.
 
-The quality should be comparable to:
+--------------------------------
 
-* HelloFresh UK
-* Whole Foods Market
-* Riverford
-* Ocado
-* Abel & Cole
+GENERAL DESIGN RULES
 
-Do NOT make it look like a local fish shop.
+Stop using the same beige background everywhere.
 
-It should look like a premium British food company.
+Alternate backgrounds to create visual rhythm.
 
-⸻
+Example
 
-Theme
+Section 1
+Light Cream
 
-Our brand slogan
+Section 2
+White
 
-Ethical • Pure • Fresh
+Section 3
+Photo Background
 
-Main tagline
-
-Farm to Fork
-
-⸻
-
-Brand Identity
-
-Tarel supplies
-
-* Fresh Fish
-* Seafood
-* Fresh Meat
-
-We deliver across Scotland every week.
-
-Our speciality is authentic Indian fish varieties that are difficult to find in the UK.
-
-We serve both
-
-* Retail Customers
-* Restaurants
-* Hotels
-* Catering Companies
-* Fish Shops
-* Meat Shops
-* Grocery Stores
-
-⸻
-
-Colour Palette
-
-Use colours from our uploaded logo.
-
-Primary
-
-Deep Forest Green
-
-Secondary
-
-Natural Green
-
-Background
-
-Warm Cream
-
-Accent
-
-Soft Gold
-
-Buttons
-
+Section 4
 Dark Green
 
-Hover
+Section 5
+Cream
 
-Natural Green
+Section 6
+White
 
-Lots of white space.
+Section 7
+Photo Banner
 
-Rounded cards.
+Section 8
+Cream
 
-Soft shadows.
+Section 9
+Dark Green
 
-Premium typography.
+The user should immediately feel movement while scrolling.
 
-⸻
+--------------------------------
 
-Technology
+SECTION BACKGROUNDS
 
-Build using
+Where appropriate use
 
-Next.js
+• premium seafood photography
+• crushed ice
+• ocean texture
+• fishing harbour
+• Scottish coast
+• cold storage
+• fresh herbs
+• wooden cutting boards
+• marble
+• blurred premium food photography
 
-TypeScript
+Never use AI looking images.
 
-Tailwind CSS
+Use only realistic editorial photography.
 
-Framer Motion
+--------------------------------
 
-Responsive
+PARALLAX
 
-SEO Friendly
+Where suitable
 
-Component Based
+add
 
-⸻
+slow parallax image backgrounds
 
-Animations
+especially for
 
-Use tasteful animations.
+Weekly Delivery
 
-Examples
-
-Hero fades in
-
-Cards slide upward
-
-Numbers count up
-
-Buttons slightly grow
-
-Images zoom slightly on hover
-
-Timeline animates while scrolling
-
-Floating leaves
-
-Smooth scrolling
-
-Do NOT over animate.
-
-⸻
-
-Navigation
-
-Home
-
-Farm to Fork
-
-Products
-
-For Businesses
-
-Become a Vendor
+Become Vendor
 
 About Us
 
 Contact
 
-Order on WhatsApp
+--------------------------------
 
-Sticky navbar.
+FULL WIDTH IMAGE DIVIDERS
 
-⸻
+Between sections insert occasional full width banners
 
-TOP BAR
+Examples
 
-UK Based 🇬🇧
+Fresh fish on crushed ice
 
-Freshly Delivered Weekly
+Scottish coastline
 
-Serving Scotland
+Fishing harbour
 
-WhatsApp Orders
+Delivery van
 
-⸻
+Cold chain warehouse
 
-HERO SECTION
+Seafood preparation
 
-Large premium seafood and meat image.
+These should separate content sections.
 
-Headline
+--------------------------------
 
-Pure. Ethical. Delivered Fresh to Your Doorstep.
+PRODUCT PRESENTATION
 
-Sub Heading
+Current product cards are good.
 
-Fresh fish, seafood and premium meat sourced from trusted suppliers and delivered weekly across Scotland.
+Improve them.
 
-Buttons
+Every product image should have
 
-Shop Products
+natural shadow
 
-Order on WhatsApp
+slight depth
 
-Become a Vendor
+premium lighting
 
-Trust Badge
+floating effect
 
-⭐⭐⭐⭐⭐
+ice texture underneath
 
-Trusted by
+Each card should have
 
-500+
+hover zoom
 
-Happy Customers
+hover elevation
 
-Weekly
+soft shadow
 
-100+
+premium border
 
-Orders Delivered
+--------------------------------
 
-UK Flag
+CATEGORY CARDS
 
-Scotland Map outline
+Instead of plain cards
 
-⸻
-
-FEATURE STRIP
-
-Farm to Fork
-
-Premium Quality
-
-Temperature Controlled
-
-Fresh Weekly Delivery
-
-Ethically Sourced
-
-Hygienically Packed
-
-⸻
-
-ABOUT TAREL
+make them editorial.
 
 Large image
 
-Text
+soft gradient overlay
 
-At Tarel, we believe everyone deserves fresh, high-quality seafood and meat delivered with honesty and care.
+category badge
 
-From trusted farms and fisheries to your kitchen, every product is selected, packed and delivered with strict quality standards.
+short description
 
-Whether you’re cooking at home or buying for your restaurant, Tarel is committed to freshness, consistency and authentic taste.
+CTA button
 
-⸻
+background depth
 
-FARM TO FORK
+--------------------------------
 
-Beautiful horizontal timeline.
+HOME HERO
+
+Current hero is good.
+
+Improve it.
+
+Background should have
+
+soft blurred herbs
+
+light particles
+
+subtle premium gradients
+
+very soft textures
+
+Image should overlap slightly
+
+add floating quality badges
+
+Cold Chain
+
+Fresh Weekly
 
 Trusted Farms
 
-↓
-
-Daily Procurement
-
-↓
-
-Quality Inspection
-
-↓
-
-Professional Cleaning
-
-↓
-
-Cold Chain Packing
-
-↓
-
-Weekly Delivery
-
-↓
-
-Your Kitchen
-
-Illustrated icons.
-
-⸻
-
-PRODUCTS
-
-Two large premium cards.
-
-Fresh Fish & Seafood
-
-Fresh Indian Fish
-
-Prawns
-
-Crabs
-
-Squid
-
-Shellfish
-
-Whole Fish
-
-Steaks
-
-Fillets
-
-Cleaning Available
-
-Large seafood photo.
-
-Button
-
-Explore Fish
-
-⸻
-
-Fresh Meat
-
-Chicken
-
-Goat
-
-Mutton
-
-Lamb
-
-Beef
-
-Curry Cut
-
-Whole Chicken
-
-Premium Cuts
-
-Large meat image.
-
-Button
-
-Explore Meat
-
-⸻
-
-OUR POPULAR FISH
-
-Display attractive cards for:
-
-Blue Swimmer Crab
-
-Indian Mackerel
-
-Sardine
-
-Anchovy
-
-Bonito
-
-Threadfin Bream
-
-Pomfret
-
-Yellowfin Tuna
-
-Ribbon Fish
-
-Rabbit Fish
-
-King Fish
-
-Emperor Fish
-
-Black Tilapia
-
-Sail Fish
-
-Silver Pomfret
-
-Squid
-
-Cuttlefish
-
-Sea Prawns
-
-Giant Tiger Prawns
-
-Goat Fish
-
-(Include a note saying “Many more seasonal varieties available.”)
-
-⸻
-
-OUR MEAT RANGE
-
-Goat
-
-Chicken
-
-Mutton
-
-Lamb
-
-Beef
-
-Whole Chicken
-
-Chicken Curry Cut
-
-Goat Curry Cut
-
-Boneless Chicken
-
-Premium Cuts
-
-Whole Goat
-
-(Include “More fresh cuts available every week.”)
-
-⸻
-
-DELIVERY SECTION
-
-Fresh Delivered Weekly in Scotland
-
-Tarel supplies fresh fish sourced from India and premium meat every week.
-
-Pre-order before Friday.
-
-Receive delivery every Tuesday.
-
-Large Scotland delivery illustration.
-
-⸻
-
-WHY CHOOSE TAREL
-
-Daily Fresh
-
-Temperature Controlled
-
-Trusted Suppliers
-
 Premium Quality
+
+These should animate slowly.
+
+--------------------------------
+
+SECTION TRANSITIONS
+
+Currently every section starts abruptly.
+
+Instead use
+
+large spacing
+
+curved separators
+
+soft gradients
+
+wave dividers
+
+organic transitions
+
+--------------------------------
+
+ABOUT SECTION
+
+Use a large premium background photo behind part of the section.
+
+Maybe
+
+farm
+
+fish market
+
+premium seafood table
+
+Reduce empty space.
+
+--------------------------------
+
+PROCESS SECTION
+
+Current timeline is good.
+
+Improve it with
+
+connecting animated line
+
+hover animations
+
+icons with depth
+
+step number badges
+
+--------------------------------
+
+PRODUCT SECTIONS
+
+Every 2-3 rows insert
+
+large promotional banner
+
+Examples
+
+40+ Fresh Fish Weekly
 
 Authentic Indian Fish
 
-Ethical Sourcing
+Delivered Across Scotland
 
-Weekly Delivery
+Fresh Every Wednesday
 
-Carefully Packed
+Use full width photography.
 
-Friendly Support
+--------------------------------
 
-⸻
+DELIVERY SECTION
 
-FOR BUSINESSES
+Current van section is excellent.
 
-We Supply
+Improve by adding
 
-Restaurants
+moving clouds
 
-Hotels
+parallax mountains
 
-Takeaways
+road depth
 
-Caterers
+glass effect cards
 
-Retail Shops
+delivery statistics
 
-Fish Shops
+animated route line
 
-Meat Shops
+--------------------------------
 
-Indian Grocery Stores
+WHY CHOOSE US
 
-Benefits
+Current boxes feel repetitive.
 
-Competitive Pricing
+Convert them into
 
-Bulk Orders
+premium feature cards
 
-Scheduled Delivery
+icons inside circular backgrounds
 
-Reliable Supply
+soft shadows
 
-Consistent Quality
+hover glow
 
-Dedicated Support
+micro interactions
 
-Button
+--------------------------------
 
-Become a Business Customer
+BUSINESS SECTION
 
-⸻
+Add
 
-BECOME A VENDOR
+restaurant kitchen background
 
-Large CTA
+chef preparing seafood
 
-Headline
+wholesale warehouse
 
-Partner With Tarel
+fish market
 
-Text
+instead of plain backgrounds.
 
-We are always looking for trusted farms, fisheries and meat suppliers.
+--------------------------------
 
-Join us and grow together.
+BECOME VENDOR
 
-Benefits
+Current CTA is good.
 
-Long-term Partnership
+Make it much stronger.
 
-Fair Pricing
+Large background image
 
-Weekly Orders
+dark overlay
 
-Timely Payments
+gold accents
 
-Growing Customer Base
+premium CTA
 
-Button
+supplier illustrations
 
-Become a Vendor
+--------------------------------
 
-⸻
+FORMS
 
-HOW TO ORDER
+Current forms are clean.
 
-Beautiful 5-step process.
+Improve with
 
-Browse Products
+glass effect
 
-↓
+better spacing
 
-Send WhatsApp
+focus animation
 
-↓
+premium icons
 
-Confirm Order
+field grouping
 
-↓
+soft shadows
 
-Receive Tuesday Delivery
-
-↓
-
-Enjoy Fresh Food
-
-⸻
-
-WHATSAPP ORDER TEMPLATE
-
-Display inside a styled code block.
-
-Hello Tarel,
-I'd like to place an order.
-Name:
-Address:
-Postcode:
-Delivery Date:
-Fish/Meat Required:
-Quantity:
-Special Instructions:
-Thank you.
-
-Button
-
-Order on WhatsApp
-
-Phone
-
-+44 7553 132674
-
-⸻
-
-VENDOR WHATSAPP TEMPLATE
-
-Hello Tarel,
-I'd like to become a supplier.
-Business Name:
-Supplier Type:
-Products Supplied:
-Weekly Quantity:
-Location:
-Contact Number:
-Thank you.
-
-Button
-
-Become a Vendor
-
-⸻
+--------------------------------
 
 CUSTOMER REVIEWS
 
-Professional cards.
+Current cards look basic.
 
-⭐⭐⭐⭐⭐
+Convert into
 
-“Best Indian fish we’ve found in Scotland.”
+editorial testimonials
 
-—
+customer avatars
 
-⭐⭐⭐⭐⭐
+location
 
-“Always fresh and perfectly packed.”
+verified customer
 
-—
+Google review style
 
-⭐⭐⭐⭐⭐
+subtle quote marks
 
-“Very reliable weekly deliveries.”
+rating animation
 
-—
+--------------------------------
 
-⭐⭐⭐⭐⭐
+CONTACT SECTION
 
-“Excellent quality meat and seafood.”
+Current map card is nice.
 
-—
+Improve with
 
-⭐⭐⭐⭐⭐
+real Scotland illustration
 
-“Authentic taste just like back home.”
+delivery routes
 
-⸻
+postcode highlights
 
-COMPANY NUMBERS
+service coverage animation
+
+--------------------------------
+
+FOOTER
+
+Add
+
+small fish illustration
+
+subtle waves
+
+newsletter
+
+payment icons
+
+trust badges
+
+cold chain certification
+
+food hygiene certification
+
+copyright styling
+
+--------------------------------
+
+MICRO ANIMATIONS
+
+Every card
+
+lift on hover
+
+Buttons
+
+ripple
+
+Icons
+
+rotate
+
+Images
+
+zoom
+
+Timeline
+
+animate
+
+Statistics
+
+count up
+
+Badges
+
+pulse slowly
+
+--------------------------------
+
+SCROLL ANIMATIONS
+
+Fade
+
+Slide
+
+Scale
+
+Stagger
+
+Image reveal
+
+Parallax
+
+Only subtle.
+
+No excessive motion.
+
+--------------------------------
+
+ICONS
+
+Replace any generic icons with premium outlined icons.
+
+Maintain consistency.
+
+--------------------------------
+
+BORDERS
+
+Current borders are too plain.
+
+Use
+
+1px soft border
+
+slight transparency
+
+soft shadow
+
+--------------------------------
+
+BUTTONS
+
+Current buttons are good.
+
+Improve with
+
+hover elevation
+
+gradient
+
+slight glow
+
+icon movement
+
+--------------------------------
+
+TYPOGRAPHY
+
+Keep existing typography.
+
+Only improve
+
+line height
+
+spacing
+
+section titles
+
+letter spacing
+
+--------------------------------
+
+PREMIUM EFFECTS
+
+Use
+
+backdrop blur
+
+glassmorphism where appropriate
+
+soft gradients
+
+layered cards
+
+depth
+
+floating elements
+
+grain overlays
+
+subtle shadows
+
+--------------------------------
+
+IMAGE QUALITY
+
+Every image should look professionally photographed.
+
+No AI generated look.
+
+Natural lighting.
+
+Premium composition.
+
+Editorial photography.
+
+--------------------------------
+
+DO NOT OVERDESIGN.
+
+The website should remain elegant, minimal and luxurious.
+
+The goal is to make visitors immediately trust the brand and feel they are buying premium seafood from a professional UK company.
+
+Focus on visual hierarchy, photography, whitespace, depth, realism, and premium interactions rather than adding unnecessary content.
+
+The website is already complete.
+
+DO NOT redesign the structure.
+
+Instead transform it into a premium, luxury, conversion-focused seafood website suitable for a modern UK brand.
+
+==========================================================
+PREMIUM CONVERSION FEATURES
+==========================================================
+
+Add a sticky floating CTA that appears after the hero section.
+
+Desktop
+
+--------------------------------
+
+Left Side
+
+🚚 Fresh Delivery Every Wednesday
+
+Right Side
+
+Order This Week
+
+WhatsApp Button
+
+This CTA should appear after scrolling 500px and disappear when reaching the footer.
+
+On mobile it should become a bottom sticky bar.
+
+--------------------------------
+
+Add a featured products horizontal carousel.
+
+Instead of static grids.
+
+Include
+
+Most Popular
+
+Weekly Specials
+
+Fresh Today
+
+Chef Picks
+
+New Arrivals
+
+Customers should swipe horizontally.
+
+Cards should have
+
+large premium images
+
+soft shadows
+
+hover lift
+
+availability badge
+
+clean price styling
+
+premium animations.
+
+--------------------------------
+
+Create a section called
+
+THIS WEEK'S FRESH CATCH
+
+Highlight 6–8 seasonal products.
+
+Each product should include
+
+Large photography
+
+Fresh badge
+
+Limited Stock badge
+
+Cleaning Available
+
+Whole
+
+Steak
+
+Fillet
+
+WhatsApp Order button
+
+Background should use premium crushed ice.
+
+--------------------------------
+
+Create an interactive Scotland Delivery Coverage section.
+
+Large Scotland map.
+
+Highlighted delivery regions.
+
+Hover or tap each region.
+
+Show
+
+Delivery Day
+
+Coverage
+
+Minimum Order
+
+Delivery Fee
+
+Supported cities.
+
+Add a postcode checker.
+
+Example
+
+Enter EH11
+
+✓ We Deliver Here
+
+Next Delivery Wednesday
+
+--------------------------------
+
+Create premium trust badges.
+
+Use illustrated icons.
+
+Examples
+
+Food Hygiene
+
+Cold Chain Certified
+
+Temperature Controlled
+
+Secure Payments
+
+Trusted Farms
+
+Fresh Weekly
+
+Scottish Delivery
+
+Quality Guaranteed
+
+100% Satisfaction
+
+Display as premium cards.
+
+--------------------------------
+
+Create a recipe inspiration section.
+
+Title
+
+Cook Something Amazing
+
+Include
+
+Chef recipe cards.
+
+Each recipe should use Tarel products.
+
+Examples
+
+King Fish Curry
+
+Goat Biryani
+
+Tiger Prawn Masala
+
+Squid Fry
+
+Crab Curry
+
+Include
+
+Difficulty
+
+Cooking Time
+
+Ingredients
+
+View Recipe button.
+
+--------------------------------
+
+Create an Instagram style gallery.
+
+Real customer photos.
+
+Seafood preparation.
+
+Fresh deliveries.
+
+Customer kitchens.
+
+Weekly catches.
+
+Hover effects.
+
+Lightbox.
+
+Instagram style masonry layout.
+
+--------------------------------
+
+Create countdown cards.
+
+One live countdown
+
+Pre-order closes in
+
+XX Days
+XX Hours
+XX Minutes
+
+Another countdown
+
+Fresh Delivery Arrives
+
+Wednesday
+
+Display live timer.
+
+-------------------------------------------------
+
+Replace flat backgrounds.
+
+Use premium textures.
+
+Examples
+
+Fine Linen
+
+Premium Paper
+
+Marble
+
+Natural Stone
+
+Soft Grain
+
+Wood
+
+Crushed Ice
+
+Ocean Texture
+
+Never use flat colors alone.
+
+Textures should remain subtle.
+
+-------------------------------------------------
+
+Every 3 or 4 sections insert a cinematic full-width banner.
+
+Examples
+
+Scottish Highlands
+
+Fishing Harbour
+
+Fresh Fish Market
+
+Cold Storage
+
+Delivery Van
+
+Premium Seafood
+
+Ocean Waves
+
+These should break scrolling rhythm.
+
+-------------------------------------------------
+
+Replace fake reviews.
+
+Use realistic testimonial cards.
+
+Include
+
+Customer image
+
+Location
+
+Occupation
+
+Verified Customer badge
+
+5 star rating
+
+Example
+
+★★★★★
+
+Sarah M.
+
+Edinburgh
+
+"Best Indian fish we've found in Scotland."
+
+Verified Customer
+
+-------------------------------------------------
+
+Animate statistics.
 
 500+
 
 Happy Customers
 
-100+
+should count upward.
 
-Weekly Orders
+-------------------------------------------------
 
-50+
+Add floating freshness badges.
 
-Trusted Suppliers
+Today's Fresh Stock
 
-99%
+40+ Fish Available
 
-Customer Satisfaction
+Delivered Wednesday
 
-Animated counters.
+Order Before Friday
 
-⸻
+Limited Seasonal Stock
 
-SOCIAL MEDIA
+--------------------------------
 
-Facebook
+Every product card should have
 
-https://www.facebook.com/share/1R4SooiQyD/?mibextid=wwXIfr
+Availability
 
-Instagram
+Cleaning Options
 
-https://www.instagram.com/tarelfreshfish
+Packing Type
 
-WhatsApp
+Freshness Badge
 
-+44 7553 132674
+Hover Zoom
 
-Clickable icons.
+Order CTA
 
-⸻
+--------------------------------
 
-CONTACT
+Add premium micro interactions.
 
-Order Number
+Buttons
 
-+44 7553 132674
+lift
 
-Vendor Number
+Cards
 
-+44 7553 132674
+hover
 
-Business Hours
+Icons
 
-Monday–Saturday
+rotate
 
-Address
+Images
 
-Scotland, United Kingdom
+zoom
 
-Google Maps placeholder
+Counters
 
-⸻
+animate
 
-FOOTER
+Timeline
 
-Logo
+animate
 
-Ethical • Pure • Fresh
+Badges
 
-Quick Links
+pulse
 
-Farm to Fork
+Everything should feel alive.
+
+--------------------------------
+
+Improve loading experience.
+
+Skeleton loaders.
+
+Lazy loading.
+
+Image fade-in.
+
+Smooth scrolling.
+
+Preload hero image.
+
+--------------------------------
+
+Optimize Core Web Vitals.
+
+Lighthouse
+
+Performance
+
+95+
+
+Accessibility
+
+100
+
+SEO
+
+100
+
+Best Practices
+
+100
+
+--------------------------------
+
+SEO
+
+Use semantic HTML.
+
+JSON-LD.
+
+OpenGraph.
+
+Twitter Cards.
+
+Proper headings.
+
+Lazy images.
+
+Image optimization.
+
+Responsive images.
+
+--------------------------------
+
+Accessibility
+
+Keyboard navigation.
+
+ARIA labels.
+
+Proper contrast.
+
+Screen reader support.
+
+Visible focus states.
+
+Reduced motion support.
+
+==========================================================
+MOBILE EXPERIENCE
+==========================================================
+
+The mobile website must NOT simply stack desktop components.
+
+Design mobile first.
+
+Every section should feel purpose-built for phones.
+
+-------------------------------------------------
+
+Hero
+
+Use a full-width hero.
+
+Reduce text.
+
+Larger CTA.
+
+Image below content.
+
+No tiny buttons.
+
+-------------------------------------------------
+
+Sticky Bottom Navigation
+
+Always visible.
+
+Home
 
 Products
 
-Become a Vendor
+WhatsApp
 
-Wholesale
+Businesses
 
 Contact
 
-Privacy Policy
+Use rounded premium icons.
 
-Terms
+-------------------------------------------------
 
-Newsletter
+Sticky Order Button
 
-Copyright
+Bottom floating.
 
-⸻
+Order This Week
 
-IMAGES
+WhatsApp icon.
 
-Use premium royalty-free placeholder images suitable for the UK market featuring:
+Never hide.
 
-* Fresh seafood on ice
-* Premium meat cuts
-* Scottish delivery van
-* UK kitchens
-* Restaurants
-* Fisheries
-* Farms
-* Cold-chain logistics
-* Happy families cooking
-* Chefs
-* Weekly delivery
+-------------------------------------------------
 
-Do not use cartoon illustrations or low-quality stock photos. The website should feel luxurious and trustworthy.
+Product Cards
 
-⸻
+Convert grids into swipeable carousels.
 
-RESPONSIVENESS
+Only one card visible at a time.
 
-The website must be fully responsive for:
+Large images.
 
-* Desktop
-* Laptop
-* Tablet
-* Mobile
+Large CTA.
 
-⸻
+Comfortable spacing.
 
-FINAL GOAL
+-------------------------------------------------
 
-Create a premium UK food brand website that feels modern, trustworthy, and elegant. Visitors should immediately understand that Tarel delivers fresh fish and meat across Scotland every week and should be encouraged to either:
+Statistics
 
-1. Order via WhatsApp, or
-2. Become a vendor or business partner.
+Display in horizontal swipe cards.
 
-The final design should be visually polished, performance-optimized, and suitable for deployment as a production-quality marketing website.
+Do not use four columns.
+
+-------------------------------------------------
+
+Timeline
+
+Convert into vertical timeline.
+
+Animated progress line.
+
+Large icons.
+
+Better readability.
+
+-------------------------------------------------
+
+Forms
+
+Single column only.
+
+Large inputs.
+
+Large labels.
+
+Auto spacing.
+
+Large touch targets.
+
+Sticky submit button.
+
+-------------------------------------------------
+
+Gallery
+
+Use horizontal swipe gallery.
+
+Tap to expand.
+
+-------------------------------------------------
+
+Testimonials
+
+Swipe carousel.
+
+One review per screen.
+
+Large profile picture.
+
+-------------------------------------------------
+
+Map
+
+Replace desktop map.
+
+Use card.
+
+Tap to expand.
+
+Delivery checker first.
+
+-------------------------------------------------
+
+Footer
+
+Accordion layout.
+
+Quick Links
+
+Products
+
+Business
+
+Contact
+
+Social Media
+
+Collapse sections.
+
+-------------------------------------------------
+
+Buttons
+
+Minimum height
+
+56px
+
+Rounded.
+
+Premium shadow.
+
+-------------------------------------------------
+
+Spacing
+
+Increase white space.
+
+Use breathing room.
+
+Nothing should feel cramped.
+
+-------------------------------------------------
+
+Touch Targets
+
+Minimum
+
+48x48px
+
+Every clickable element.
+
+-------------------------------------------------
+
+Typography
+
+Increase readability.
+
+Responsive scaling.
+
+Better line height.
+
+Avoid long paragraphs.
+
+-------------------------------------------------
+
+Animations
+
+Reduce animation distance.
+
+Maintain smooth 60fps scrolling.
+
+-------------------------------------------------
+
+Performance
+
+Target
+
+95+ Lighthouse Mobile Score.
+
+==========================================================
+
+FINAL OBJECTIVE
+
+Do not make the website look like a template.
+
+It should feel like a premium Scottish seafood company trusted by restaurants, families, and businesses.
+
+Every section should have a purpose.
+
+Every scroll should reveal something visually different.
+
+The experience should feel luxurious, editorial, modern, and memorable while maintaining excellent performance on desktop, tablet, and mobile.
+
+Think Apple, Whole Foods, Fortnum & Mason, The Fish Society, and premium food brands—not a generic ecommerce template.
